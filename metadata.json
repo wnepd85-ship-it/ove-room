@@ -1,0 +1,6 @@
+{
+  "name": "OVEROOM — Architecture & Spatial Atelier",
+  "description": "Seoul-based architectural and interior sanctuary atelier exploring refined aesthetics, materiality, and the flow of light.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Montserrat", sans-serif;
+
+  --color-brand-sage: #98abae;
+  --color-brand-sagelarge: #a3b5b9;
+  --color-brand-sagedark: #7d9296;
+  --color-brand-oatmeal: #eae5dc;
+  --color-brand-oatmeallight: #f4f1ec;
+  --color-brand-chalk: #fbfaf8;
+  --color-brand-charcoal: #181818;
+  --color-brand-muted: #707070;
+  --color-brand-line: #ded9d1;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  display: flex;
+  width: 200%;
+  animation: marquee 28s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+.font-serif-display {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  letter-spacing: -0.02em;
+}
+
+.pill-button {
+  border: 1px solid currentColor;
+  border-radius: 9999px;
+  transition: all 0.35s ease;
+}
+
+.pill-button:hover {
+  background-color: #181818;
+  color: #ffffff;
+  border-color: #181818;
+}
